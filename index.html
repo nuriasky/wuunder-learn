@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/icon.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <title>Wuunder Learn | Home</title>
 </head>
 <body>
@@ -17,10 +19,10 @@
 
         <nav class="navbar">
             <ul>
-                <li><a class="navbar-link" href="">Inicio</a></li>
-                <li><a class="navbar-link" href="">Cursos</a></li>
-                <li><a class="navbar-link" href="">Sobre Nosotros</a></li>
-                <li><a class="navbar-link" href="">Contáctanos</a></li>
+                <li><a class="navbar-link" href="#hero">Inicio</a></li>
+                <li><a class="navbar-link" href="#course">Cursos</a></li>
+                <li><a class="navbar-link" href="#about">Sobre Nosotros</a></li>
+                <li><a class="navbar-link" href="#contact">Contáctanos</a></li>
             </ul>
         </nav>
 
@@ -31,5 +33,26 @@
             </ul>
         </nav>
     </header>
+
+
+    <main class="home">
+        <section id="hero">
+            <img src="./assets/girl-home.png" alt="" class="hero-img">
+
+            <div class="section-info">
+                <h1>¡nuevo año, <br/> nuevas <span class="span-title">metas!</span></h1>
+                <p><span>Realiza eso que siempre te propones.</span> En nuestra academia podrás aprender inglés de forma entretenida. Aprovecha desde ya e inscríbete para llegar a ese objetivo al fin de año.</p>
+            
+                <div class="button-container">
+                    <a href="#" class="first-btn">Empieza ya</a>
+                    <a href="#" class="second-btn">Leer más...</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-text">
+            <p>En Wuunder Learn verás clases con profesores de habla nativa donde te ayudarán a comunicarte en el día a día con el inglés. Contamos con una plataforma de múltiples contenidos que te motivarán a estudiar sin aburrirte.</p>
+        </section>
+    </main>
 </body>
 </html>
