@@ -213,7 +213,10 @@ main {
 }
 
 .card-front{
-    padding: 20px;
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .card-front img{
@@ -221,7 +224,7 @@ main {
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 280px;
+    width: 290px;
     height: 250px;
     padding: 1rem 0rem;
 }
