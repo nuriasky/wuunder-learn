@@ -3,3 +3,14 @@
     color: #3a0ca3;
     font-weight: 500;
 }
+
+.sign-in:hover {
+    transition: all 0.1s ease-in-out;
+    background-color: #7A3BDF;
+    color: white;
+}
+
+.sign-up:hover {
+    transition: all 0.2s ease-out;
+    color:#ffd4e9;
+} 

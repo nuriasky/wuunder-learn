@@ -53,14 +53,15 @@
     border: 3px solid #7A3BDF;
     border-radius: 2rem;
     padding: 4px 21px;
+    transition: all 0.1s ease-out;
 }
 
 .sign-up {
-    background: rgb(255,212,233);
-    background: linear-gradient(164deg, rgba(255,212,233,1) 0%, rgba(122,59,223,1) 80%);
+    background: linear-gradient(164deg, #ffd4e9 0%, #7a3bdf 80%);
     border-radius: 2rem;
     padding: 7px 31px;
     color: white;
+    transition: all 0.4s ease-out;
 }
 
 /* MAIN */
@@ -73,10 +74,10 @@ main {
     background-image: url(./assets/background-home.png);
     background-repeat: no-repeat;
     background-position: center top;
-
 }
 
 #hero {
+    max-width: 1366px;
     display: flex;
     padding: 40px 0px;
     width: 90%;
@@ -99,7 +100,7 @@ main {
 
 .span-title {
     font-family: 'fredoka one';
-    background: linear-gradient(133deg, rgba(255,145,5,1) 12%, rgba(58,12,163,1) 87%);
+    background: linear-gradient(133deg, #ff9105 12%, #3a0ca3 87%);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -150,5 +151,135 @@ main {
     width: 80%;
     max-width: 1000px;
     text-align: center;
+}
 
+/* CARDS SECTION */
+
+#course{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 70px 0px;
+    width: 95%;
+
+}
+
+#course h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#040824;
+    font-weight: 600;
+}
+
+#course span {
+    border: 0.1px solid #3a0ca3;
+    background-color: #3a0ca3;
+    border-radius: 40px;
+    padding: 0px 13px;
+    color: white;
+    font-size: 28px;
+}
+
+#course p {
+    font-size: 18px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 320px;
+    perspective: 1000px;
+    background-color: transparent;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 320px;
+    height: 460px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 28px;
+    box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-front{
+    padding: 20px;
+}
+
+.card-front img{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 280px;
+    height: 250px;
+    padding: 1rem 0rem;
+}
+
+.card-front h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card-front hr {
+    width: 230px;
+    margin: auto;
+    border: 0.7px solid #ff9105;
+    border-radius: 20px;
+}
+
+.card-front p {
+    padding: 1rem 0rem;
+}
+
+.card-back{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    text-align: start;
+    padding: 2rem 3rem;
+}
+
+.button-card{
+    text-decoration: none;
+    background: rgb(255,192,28);
+    background: linear-gradient(90deg, rgba(255,192,28,1) 0%, rgba(255,145,5,1) 80%);
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 30px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.17);
+    cursor: pointer;
+}
+
+.purple{
+    background: rgb(122,59,223);
+    background: linear-gradient(90deg, rgba(122,59,223,1) 0%, rgba(17,26,111,1) 100%);
+}
+
+.card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
 }
