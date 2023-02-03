@@ -286,3 +286,71 @@ main {
 .card-back {
     transform: rotateY(180deg);
 }
+
+/* ABOUT US SECTION */
+
+#about{
+    max-width: 1366px;
+    display: flex;
+    padding: 40px 0px;
+    width: 90%;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 570px;
+}
+
+.about-us{
+    color: #ff9105;
+    font-size: 19px;
+}
+
+.title-about h2{
+    color: #290D60;
+    font-size: 37px;
+    line-height: 45px;
+    padding: 0rem 0rem 1rem;
+}
+
+.title-about p{
+    text-align: justify;
+    font-size: 17px;
+    padding: .5rem 0rem 1rem;
+}
+
+.text-about-section{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-of-class{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    gap: 8px;
+}
+
+.icons-about{
+    width: 80px;
+}
+
+.type-of-class h3 {
+    color:#1a1f42;
+}
+
+.type-of-class p {
+    text-align: justify;
+}
+
+.picture-about{
+    height: 540px;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
