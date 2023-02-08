@@ -498,7 +498,9 @@ main {
 }
 
 .form input{
-    padding: 9px 80px 9px 20px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 40px;
     border-radius: 13px;
     outline: none;
     border: none;
@@ -507,7 +509,7 @@ main {
 }
 
 #mensaje{
-    padding: 9px 80px 110px 20px;
+    padding: 16px 80px 120px 20px;
 }
 
 .button-send{
