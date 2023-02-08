@@ -362,7 +362,7 @@ main {
 
 #contact{
     margin: 5rem 0 0 0;
-    padding: 120px 0px;
+    padding: 120px 0 35px;
     max-width: 1366px;
     background-image: url(./assets/background-contactus.png);
     background-repeat: no-repeat;
@@ -401,13 +401,13 @@ main {
     "maps form"
     "social form"
     ;
-    gap: 30px;
+    gap: 40px;
 
 }
 
 .maps{
     grid-area: maps;
-    background-color: #290D60;
+    background-color: #300d83;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -417,13 +417,68 @@ main {
 
 .social{
     grid-area: social;
-    background-color: #290D60;
+    background-color: #300d83;
     border-radius: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.grid-social{
+    display: grid;
+    grid-template-areas:
+    "instagram facebook"
+    "whatsapp email"
+    ;
+    gap: 27px;
+    padding: 1rem;
+}
+
+.instagram{
+    grid-area: instagram;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.facebook{
+    grid-area: facebook;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.whatsapp{
+    grid-area: whatsapp;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.email{
+    grid-area: email;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.grid-social img{
+    width: 32px;
+}
+
+.grid-social p{
+    color: white;
+    font-size: 15px;
 }
 
 .form{
     grid-area: form;
-    background-color: #290D60;
+    background-color: #300d83;
     border-radius: 30px;
     padding: 3rem;
     width: 500px;
@@ -472,5 +527,21 @@ main {
     width: 160px;
     font-weight: 700;
     font-size: 18px;
-    background-color: rgb(255, 189, 255);
+    background-color:#ffd4e9;
+    color: #2d2d2d;
+}
+
+
+/* FOOTER SECTION */
+
+footer{
+    background-color: #290d60;
+    width: 1366px;
+    max-width: 100%;
+
+}
+
+footer p {
+    color: #ad9fff;
+    padding: 1.3rem 5rem;
 }
