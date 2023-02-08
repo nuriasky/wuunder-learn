@@ -132,14 +132,14 @@ main {
     border: 3.5px solid #FFC01C;
     background-color: #FFC01C;
     color: #191001;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }   
 
 .second-btn {
     border: 3.5px solid #ff9105;
     background-color: white;
     color: #191001;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 .hero-img {
@@ -407,7 +407,7 @@ main {
 
 .maps{
     grid-area: maps;
-    background-color: #300d83;
+    background-color: #290d60;
     border-radius: 30px;
     display: flex;
     justify-content: center;
@@ -417,7 +417,7 @@ main {
 
 .social{
     grid-area: social;
-    background-color: #300d83;
+    background-color: #290d60;
     border-radius: 30px;
     display: flex;
     justify-content:space-around;
@@ -478,7 +478,7 @@ main {
 
 .form{
     grid-area: form;
-    background-color: #300d83;
+    background-color: #290d60;
     border-radius: 30px;
     padding: 3rem;
     width: 500px;
@@ -537,7 +537,7 @@ main {
 /* FOOTER SECTION */
 
 footer{
-    background-color: #290d60;
+    background-color: #1c0f35;
     width: 1366px;
     max-width: 100%;
 

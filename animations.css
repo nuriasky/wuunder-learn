@@ -16,13 +16,13 @@
 } 
 
 .first-btn:hover{
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     background-color: #ffd771;
     border: 3.5px solid #ffd876;
 }
 
 .second-btn:hover{
-    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-in;
     background-color: #ff9105;
     color: white;
 }
