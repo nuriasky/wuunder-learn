@@ -122,20 +122,24 @@ main {
 .button-container a{
     padding: 5px 30px;
     text-decoration: none;
-    border: 3.5px solid #FFC01C;
     border-radius: 13px;
     font-size: 20px;
     font-weight: 600;
+
 }
 
 .first-btn {
+    border: 3.5px solid #FFC01C;
     background-color: #FFC01C;
-    color: #191001;   
-}
+    color: #191001;
+    transition: all 0.3s ease-out;
+}   
 
 .second-btn {
+    border: 3.5px solid #ff9105;
     background-color: white;
     color: #191001;
+    transition: all 0.3s ease-out;
 }
 
 .hero-img {
@@ -354,3 +358,119 @@ main {
     margin: 0rem 1rem 0rem 0rem;
 }
 
+/* CONTACT US SECTION */
+
+#contact{
+    margin: 5rem 0 0 0;
+    padding: 120px 0px;
+    max-width: 1366px;
+    background-image: url(./assets/background-contactus.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+}
+
+.title-contact-us{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 0 2rem;
+}
+
+.title-contact-us img {
+    height: 17px;
+}
+
+.title-contact-us h2{
+    font-size: 40px;
+    color: white;
+}
+
+.content-contact{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-area{
+    display: grid;
+    grid-template-areas:
+    "maps form"
+    "maps form"
+    "social form"
+    ;
+    gap: 30px;
+
+}
+
+.maps{
+    grid-area: maps;
+    background-color: #290D60;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.social{
+    grid-area: social;
+    background-color: #290D60;
+    border-radius: 30px;
+}
+
+.form{
+    grid-area: form;
+    background-color: #290D60;
+    border-radius: 30px;
+    padding: 3rem;
+    width: 500px;
+}
+
+.form form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 3rem;
+    gap: 10px;
+}
+
+.form label{
+    color: white;
+    font-size: 15px;
+}
+
+.form input{
+    padding: 9px 80px 9px 20px;
+    border-radius: 13px;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    margin: 0 0 12px;
+}
+
+#mensaje{
+    padding: 9px 80px 110px 20px;
+}
+
+.button-send{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 18px;
+    padding: 7px;
+    width: 160px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: rgb(255, 189, 255);
+}
