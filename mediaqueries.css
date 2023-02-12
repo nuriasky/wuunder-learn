@@ -1,0 +1,43 @@
+@media (max-width:991.98px){
+
+    .header{
+        height: 70px;
+    }
+
+    main {
+        background-image: url(./assets/responsive/background-home-tablet.png);
+        background-size: 100%;
+    }
+
+    /* HERO SECTION */
+
+    #hero{
+        max-width: 991px;
+    }
+
+    .section-info{
+        gap: 20px;
+    }
+
+    .section-info h1{
+        font-size: 30px;
+    }
+
+    .section-info p{
+        font-size: 16px;
+        max-width: 400px;
+    }
+
+    .hero-img{
+        width: 290px;
+    }
+
+    .button-container{
+        width: 350px;
+    }
+
+    .button-container a{
+        padding: 4px 25px;
+        font-size: 15px;
+    }
+}
