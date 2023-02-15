@@ -4,6 +4,21 @@
         height: 70px;
     }
 
+    .header img{
+        height: 48px;
+    }
+
+    .navbar{
+        flex-direction: column;
+        z-index: 2;
+        transition: 0.5s ease;
+    }
+
+    .navbar{
+        justify-content: start;
+        flex-direction: column;
+    }
+
     main {
         background-image: url(./assets/responsive/background-home-tablet.png);
         background-size: 100%;
@@ -44,7 +59,7 @@
 
     .info-text{
         font-size: 14px;
-        padding: 15px;
+        padding: 30px 15px 0;
     }
 
     /* CARDS SECTION */
@@ -78,4 +93,30 @@
         display: none;
     }
 
+    .type-of-class{
+        width: 530px;
+    }
+
+    /* CONTACT US */
+
+    #contact{
+        max-width: 991px;
+        background-image: url(./assets/responsive/background-contactus-tablet.png);
+    }
+
+    .title-contact-us{
+        width: 100%;
+    }
+
+    .title-contact-us img{
+        height: 15px;
+    }
+
+    .grid-area{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
 }

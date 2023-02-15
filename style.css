@@ -22,6 +22,12 @@
     height:53px;
 }
 
+#menu-toggle,
+#cart-toggle,
+.menu-label {
+  display: none;
+}
+
 .navbar ul{
     list-style: none;
     display: flex;
@@ -33,7 +39,7 @@
     color: #0b1038;
     font-weight: 400;
     font-size: 16px;
-    transition: all 0.5s cubic-bezier(0.4, 0, 6, 1);
+    transition: all 0.2s ease-out;
 }
 
 .register ul {
@@ -432,7 +438,7 @@ main {
     "whatsapp email"
     ;
     gap: 27px;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .instagram{
