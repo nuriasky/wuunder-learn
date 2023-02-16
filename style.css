@@ -16,23 +16,20 @@
     justify-content: space-between;
     box-shadow:0px 11px 24px -5px rgba(0, 0, 0, 0.16);
     position: relative;
+    transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
  .header img {
     height:53px;
 }
 
-#menu-toggle,
-#cart-toggle,
-.menu-label {
-  display: none;
-}
 
-.navbar ul{
+.menu{
     list-style: none;
     display: flex;
     gap: 55px;
 }
+
 
 .navbar-link {
     text-decoration: none;
@@ -41,6 +38,76 @@
     font-size: 16px;
     transition: all 0.2s ease-out;
 }
+
+
+
+.burger-menu{
+    position: absolute;
+    left: 60px;
+    width: 30px;
+    height: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+    background:#3a0ca3;
+    z-index: 2;
+    transition: all 0.3s ease;
+}
+
+.burger-menu::before,
+.burger-menu::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background: #3a0ca3;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.burger-menu::before{
+    top: -10px;
+    width: 30px;
+}
+
+.burger-menu::after{
+    top: 10px;
+    width: 25px;
+}
+
+.menu-toggle{
+    position:absolute;
+    top: 1px;
+    left: 60px;
+    width: 30px;
+    height: 100%;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.burger-menu,
+.menu-toggle{
+    display: none;
+}
+
+.navbar input:checked ~ .burger-menu{
+    background: transparent;
+}
+
+.navbar input:checked ~ .burger-menu::before{
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+.navbar input:checked ~ .burger-menu::after{
+    top: 0;
+    transform: rotate(45deg);
+    width: 30px;
+}
+
+
+
 
 .register ul {
     list-style: none;
@@ -77,7 +144,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(./assets/background-home.png);
+    background-image: url(./assets/img/background-home.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -370,7 +437,7 @@ main {
     margin: 5rem 0 0 0;
     padding: 120px 0 35px;
     max-width: 1366px;
-    background-image: url(./assets/background-contactus.png);
+    background-image: url(./assets/img/background-contactus.png);
     background-repeat: no-repeat;
     background-position: center top;
     width: 100%;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/icon.png">
+    <link rel="icon" href="./assets/img/icon.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="mediaqueries.css">
@@ -16,15 +16,14 @@
 </head>
 <body>
     <header class="header">
-        <img src="./assets/logo.png" alt="Logo de Wuunder L">
+        <img src="./assets/img/logo.png" alt="Logo de Wuunder Learn">
 
         <nav class="navbar">
-            <label for="menu-toggle" class="menu-label">
-                <img src="./assets/menu-burguer.svg" alt="" class="menu-icon" />
-            </label>
 
-              <input type="checkbox" id="menu-toggle" />
-            <ul>
+            <input type="checkbox" class="menu-toggle"/>
+            <div class="burger-menu"></div>
+
+            <ul class="menu">
                 <li><a class="navbar-link" href="#hero">Inicio</a></li>
                 <li><a class="navbar-link" href="#course">Cursos</a></li>
                 <li><a class="navbar-link" href="#about">Sobre Nosotros</a></li>
@@ -34,7 +33,7 @@
 
         <nav class="register">
             <ul>
-                <li><a class="register-link sign-in" href="#">Iniciar Sesión</a></li>
+                <li><a class="register-link sign-in" href="login.html">Iniciar Sesión</a></li>
                 <li><a class="register-link sign-up" href="#">Regístrate</a></li>
             </ul>
         </nav>
@@ -44,7 +43,7 @@
     <main class="home">
         <!-- HERO SECTION -->
         <section id="hero">
-            <img src="./assets/girl-home.png" alt="" class="hero-img">
+            <img src="./assets/img/girl-home.png" alt="" class="hero-img">
 
             <div class="section-info">
                 <h1>¡nuevo año, <br/> nuevas <span class="span-title">metas!</span></h1>
@@ -70,7 +69,7 @@
                 <div class="card">
                     <div class="flip-card-inner">
                         <div class="card-front">
-                            <img src="./assets/regular.svg" alt="">
+                            <img src="./assets/icons/regular.svg" alt="">
                             <h3>Clases Regulares</h3>
                             <hr/>
                             <p>Duración de cada nivel:<br>3 meses</p>
@@ -94,7 +93,7 @@
                 <div class="card">
                     <div class="flip-card-inner">
                         <div class="card-front">
-                            <img src="./assets/flexible.svg" alt="">
+                            <img src="./assets/icons/flexible.svg" alt="">
                             <h3>Clases Flexibles</h3>
                             <hr/>
                             <p>Duración de cada nivel:<br>A tu ritmo!</p>
@@ -117,7 +116,7 @@
                 <div class="card">
                     <div class="flip-card-inner">
                         <div class="card-front">
-                            <img src="./assets/intensivo.svg" alt="">
+                            <img src="./assets/icons/intensivo.svg" alt="">
                             <h3>Clases Intensivas</h3>
                             <hr/>
                             <p>Duración de cada nivel:<br>1 mes y 15 días</p>
@@ -152,7 +151,7 @@
                     
 
                     <div class="text-about-section">
-                        <img src="./assets/book.svg" alt="book" class="icons-about book">
+                        <img src="./assets/icons/book.svg" alt="book" class="icons-about book">
 
                         <div class="type-of-class">
                             <h3>Clases Académicas</h3>
@@ -162,7 +161,7 @@
                     </div>
 
                     <div class="text-about-section">
-                        <img src="./assets/comunicacional.svg" alt="conversación" class="icons-about talk">
+                        <img src="./assets/icons/comunicacional.svg" alt="conversación" class="icons-about talk">
 
                         <div class="type-of-class">
                             <h3>Clases Comunicacionales</h3>
@@ -171,14 +170,14 @@
                     </div>
                 </div>
                 
-                <img src="./assets/teacher.png" alt="teacher" class="picture-about">
+                <img src="./assets/img/teacher.png" alt="teacher" class="picture-about">
         </section>
 
         <!-- CONTACT US SECTION -->
         <section id="contact">
             <div class="title-contact-us">
                 <h2>Contáctanos</h2>
-                <img src="./assets/line.svg" alt="">
+                <img src="./assets/icons/line.svg" alt="">
             </div>
 
             <div class="content-contact">
@@ -204,22 +203,22 @@
                     <div class="social">
                         <div class="grid-social">
                             <div class="instagram">
-                                <img src="./assets/instagram.svg" alt="">
+                                <img src="./assets/icons/instagram.svg" alt="">
                                 <p>/wuunderlearn</p>
                             </div>
 
                             <div class="whatsapp">
-                                <img src="./assets/whatsapp.svg" alt="">
+                                <img src="./assets/icons/whatsapp.svg" alt="">
                                 <p>+54 9 1125544332</p>
                             </div>
 
                             <div class="facebook">
-                                <img src="./assets/facebook.svg" alt="">
+                                <img src="./assets/icons/facebook.svg" alt="">
                                 <p>/wuunderlearn</p>
                             </div>
 
                             <div class="email">
-                                <img src="./assets/email.svg" alt="">
+                                <img src="./assets/icons/email.svg" alt="">
                                 <p>wuunderlearn@info.com</p>
                             </div>
                         </div>
