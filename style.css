@@ -475,7 +475,7 @@ main {
     "social form"
     ;
     gap: 40px;
-
+    grid-template-columns: 500px;
 }
 
 .maps{
@@ -554,7 +554,6 @@ main {
     background-color: #290d60;
     border-radius: 30px;
     padding: 3rem;
-    width: 500px;
 }
 
 .form form{
