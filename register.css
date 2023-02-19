@@ -1,14 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    max-width: 1366px;
     box-sizing: border-box;
     font-family: 'poppins';
 }
 
 .grid-container{
+    max-width: 1366px;
     height: 768px;
     display: grid;
+    grid-template-columns: 600px 749px;
     grid-template-areas:
     "register illustration"
     ;
@@ -30,7 +31,8 @@
 .logo{
     align-self: self-start;
     position: absolute;
-    top: 35px;
+    left: 45px;
+    top: 30px;
 }
 
 .logo img{
@@ -177,5 +179,94 @@
     background-image: url(./assets/img/background-register.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+}
+
+.text {
+    margin: 50px 80px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    color: white;
+}
+
+.text h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cohete{
+    display: flex;
+    justify-content: flex-end;
+    width: 620px;
+}
+
+.cohete img{
+    width: 500px;
+    position: absolute;
+    top: 125px;
+}
+
+.astronauts{
+    /* background-color: rgba(238, 130, 238, 0.199); */
+    margin: 120px 0 0 50px;
+    width: 680px;
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+
+
+.man{
+    width: 260px;
+    position: relative;
+    top: 10px;
+    animation-name: man;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes man {
+    0%{
+        transform: translateY(0px);
+    }
+
+    70%{
+        transform: translateY(40px);
+    }
+
+    100%{
+        transform: translateY(10px);
+    }
+
+    0%{
+        transform: translateY(10px);
+    }
+}
+
+
+.girl{
+    width: 220px;
+    animation-name: girl;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes girl {
+    0%{
+        transform: translateY(0px);
+    }
+
+    70%{
+        transform: translateY(30px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+
 }
