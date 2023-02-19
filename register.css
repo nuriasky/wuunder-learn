@@ -181,7 +181,7 @@
 }
 
 .text {
-    margin: 50px 80px 10px;
+    margin: 45px 80px 10px;
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -205,14 +205,14 @@
 }
 
 .cohete img{
-    width: 500px;
+    width: 490px;
     position: absolute;
-    top: 125px;
+    top: 120px;
 }
 
 .astronauts{
     /* background-color: rgba(238, 130, 238, 0.199); */
-    margin: 120px 0 0 50px;
+    margin: 120px 0 0 60px;
     width: 680px;
     display: flex;
     justify-content: space-around;
