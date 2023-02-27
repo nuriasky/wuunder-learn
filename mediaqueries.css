@@ -211,8 +211,33 @@
     /* ABOUT US SECTION*/
 
     .text-container{
-        max-width: 300px;
+        max-width: 85%;
     }
 
+    .type-of-class{
+        box-shadow: 9px 8px 20px rgba(0, 0, 0, 0.04);
+        border-radius: 20px;
+        padding: 1.4rem;
+        font-size: 12px;
+    }
 
+    .one{
+        border: 1px solid #ffbf1c2f;
+    }
+
+    .one h3{
+        color: #ffc01c;
+    }
+
+    .two{
+        border: 1px solid #7a3bdf2f;
+    }
+
+    .two h3{
+        color: #7a3bdf;
+    }
+
+    .text-about-section img{
+        display: none;
+    }
 }
