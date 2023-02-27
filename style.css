@@ -501,8 +501,8 @@ main {
 .grid-social{
     display: grid;
     grid-template-areas:
-    "instagram facebook"
-    "whatsapp email"
+    "instagram whatsapp"
+    "facebook email"
     ;
     gap: 27px;
     padding: 1rem 2rem;
