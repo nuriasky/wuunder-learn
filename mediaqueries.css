@@ -1,5 +1,7 @@
 @media (max-width:991.98px){
 
+    /* HEADER */
+
     .header{
         height: 70px;
     }
@@ -7,7 +9,7 @@
     .header img{
         height: 45px;
         position: absolute;
-        left: 200px;
+        left: 180px;
     }
 
 
@@ -154,4 +156,63 @@
     }
 
     
+}
+
+
+/* MOBILE */
+
+@media (max-width:767.98px) {
+    
+    /* HEADER */
+
+    .register{
+        display: none;
+    }
+
+    .menu{
+        right: -400px;
+        width: 400px;
+    }
+
+    /* HERO SECTION */
+
+    .info-text{
+        display: none;
+    }
+
+    main {
+        background-image: url(./assets/responsive/background-mobile.svg);
+    }
+
+    #hero{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .hero-img{
+        width: 260px;
+    }
+
+    .section-info{
+        align-items: center;
+        text-align: center;
+        gap: 27px;
+    }
+
+    .section-info h1{
+        font-size: 40px;
+    }
+
+    .section-info p{
+        max-width: 330px;
+    }
+
+    /* ABOUT US SECTION*/
+
+    .text-container{
+        max-width: 300px;
+    }
+
+
 }
