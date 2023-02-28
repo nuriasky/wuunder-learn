@@ -9,7 +9,7 @@
     max-width: 1366px;
     height: 768px;
     display: grid;
-    grid-template-columns: 600px 749px;
+    grid-template-columns: 45% 55%;
     grid-template-areas:
     "register illustration"
     ;
