@@ -164,9 +164,18 @@
 @media (max-width:767.98px) {
     
     /* HEADER */
+    
+    .header img{
+        margin: -60px;
+    }
 
-    .register{
+    .register ul{
         display: none;
+    }
+
+    .icon-login {
+        display: flex;
+        margin: 4px 0 0 0;
     }
 
     /* HERO SECTION */

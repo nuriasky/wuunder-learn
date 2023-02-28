@@ -106,9 +106,6 @@
     width: 30px;
 }
 
-
-
-
 .register ul {
     list-style: none;
     display: flex;
@@ -135,6 +132,14 @@
     padding: 7px 31px;
     color: white;
     transition: all 0.4s ease-out;
+}
+
+.icon-login{
+    display: none;
+}
+
+.icon-login svg{
+    fill:#ff9105;
 }
 
 /* MAIN */
