@@ -4,28 +4,96 @@
     height: 1180px;
     }
 
+    .illustration{
+        background-image: url(./assets/img/background\ register.svg);
+    }
 
     .text{
         margin-top: 80px;
     }
 
     .cohete img{
-        width: 300px;
-        top: 280px;
+        width: 350px;
+        top: 270px;
         right: 30px;
     }
 
-    .illustration{
-        background-image: url(./assets/img/background\ register.svg);
-
-    }
-
     .man{
-        top: 200px;
-        right: 130px;
+        position: absolute;
+        width: 200px;
+        top: 500px;
+        right: 110px;
     }
 
     .girl{
+        position: absolute;
+        width: 200px;
+        top: 820px;
+        right: 20px;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width:767.98px){
+
+    .grid-container{
+        grid-template-columns: 100% 0;
+        height: 100%;
+        padding: 2rem;
+    }
+
+    .logo{
+        left: 0;
+        position: relative;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .register{
+        justify-content: center;
+        display: flex; 
+        margin: 0;
+        align-content: center;
+        align-items: center;
+        width: 100%; 
+    }
+
+    .register-section{
+        width: 300px;
+    }
+
+    .register-google a{
+        font-size: 14px;
+    }
+
+    .form-register{
+        width: 270px;
+    }
+
+    .form-register input{
+        width: 270px;
+    }
+
+    .terms{
+        width: 270px;
+    }
+
+    .login-and-next {
+        width: 200px;
+        text-align: center;
+    }
+    .login-and-next a{
+        font-weight: 600;
+    }
+
+    .button-register{
+        width: 270px;
+    }
+
+    .illustration{
         display: none;
     }
 }
