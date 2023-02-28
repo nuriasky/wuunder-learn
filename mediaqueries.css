@@ -165,6 +165,10 @@
     
     /* HEADER */
     
+    .header{
+        position: sticky;
+    }
+
     .header img{
         margin: -60px;
     }

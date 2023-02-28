@@ -1,0 +1,26 @@
+@media (max-width:991.98px){
+    .grid-container{
+    grid-template-columns: 50% 50%;
+    height: 1180px;
+    }
+
+    .text{
+        width: 280px;
+        margin-top: 70px;
+    }
+
+    .cohete img{
+        width: 300px;
+        top: 280px;
+        right: 30px;
+    }
+
+    .man{
+        top: 200px;
+        right: 170px;
+    }
+
+    .girl{
+        display: none;
+    }
+}

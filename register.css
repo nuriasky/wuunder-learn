@@ -210,8 +210,7 @@
     top: 120px;
 }
 
-.astronauts{
-    /* background-color: rgba(238, 130, 238, 0.199); */
+.astronauts{ 
     margin: 120px 0 0 60px;
     width: 680px;
     display: flex;
