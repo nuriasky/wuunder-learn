@@ -1,12 +1,12 @@
-@media (max-width:991.98px){
+@media (max-width:991.98px){  
+
     .grid-container{
-    grid-template-columns: 50% 50%;
     height: 1180px;
     }
 
+
     .text{
-        width: 280px;
-        margin-top: 70px;
+        margin-top: 80px;
     }
 
     .cohete img{
@@ -15,9 +15,14 @@
         right: 30px;
     }
 
+    .illustration{
+        background-image: url(./assets/img/background\ register.svg);
+
+    }
+
     .man{
         top: 200px;
-        right: 170px;
+        right: 130px;
     }
 
     .girl{
