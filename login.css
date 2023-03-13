@@ -1,20 +1,21 @@
 *{
     margin: 0;
     padding: 0;
-    max-width: 1366px;
     box-sizing: border-box;
     font-family: 'poppins';
 }
 
 .grid-container{
+    max-width: 1366px;
     height: 768px;
     display: grid;
+    grid-template-columns: 45% 55%;
     grid-template-areas:
     "illustration login"
     ;
 }
 
-/* LEFT SIDE */
+/* RIGHT SIDE */
 
 .login{
     grid-area: login;
@@ -24,13 +25,13 @@
     flex-direction: column;
     height: 90%;
     gap: 30px;
-    margin: 10px 0 0 30px;
+    margin: 20px 0 0 30px;
 }
 
 .logo{
     align-self: self-start;
     position: absolute;
-    top: 35px;
+    top: 30px;
 }
 
 .logo img{
@@ -45,7 +46,6 @@
     padding: 20px;
     width: 400px;
     gap: 15px;
-
 }
 
 .login-section h1{
@@ -130,24 +130,24 @@
     width: 300px;
     display: flex;
     gap: 5px;
-    font-size: 13px;
+    font-size: 14px;
     color: #878787;
 }
 
-.login-and-next{
+.register-and-next{
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 15px;
 }
 
-.login-and-next p{
+.register-and-next p{
     color: #3a3a3a;
     font-size: 15px;
     font-weight: 500;
 }
 
-.login-and-next a{
+.register-and-next a{
     text-decoration: none;
     color: #2e137f;
 }
@@ -162,17 +162,16 @@
     font-weight: 600;
     font-size: 18px;
     background: rgb(122,59,223);
-    background: linear-gradient(72deg, rgba(255,145,5,1) 0%, rgba(122,59,223,1) 88%);
+    background: linear-gradient(72deg, #ff9105 0%, #7a3bdf 88%);
     color: white;
 }
 
-/* RIGHT SIDE */
+/* LEFT SIDE */
 
 .illustration{
     grid-area: illustration;
-    background-color: violet;
 }
 
 .illustration{
-    background-color: steelblue;
+    background-color: #534d77;
 }

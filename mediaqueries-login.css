@@ -1,0 +1,68 @@
+@media (max-width:991.98px){  
+
+}
+
+/* RESPONSIVE MOBILE */
+
+@media (max-width:767.98px){
+
+    .grid-container{
+        grid-template-columns: 0 100%;
+        height: 100%;
+        padding: 2rem;
+    }
+
+    .logo{
+        left: 0;
+        position: relative;
+    }
+
+    .logo img{
+        height: 40px;
+    }
+
+    .login{
+        justify-content: center;
+        display: flex; 
+        margin: 0;
+        align-content: center;
+        align-items: center;
+        width: 100%; 
+    }
+
+    .login-section{
+        width: 300px;
+    }
+
+    .login-google a{
+        font-size: 14px;
+    }
+
+    .form-login{
+        width: 270px;
+    }
+
+    .form-login input{
+        width: 270px;
+    }
+
+    .terms{
+        width: 270px;
+    }
+
+    .register-and-next {
+        width: 250px;
+        text-align: center;
+    }
+    .register-and-next a{
+        font-weight: 600;
+    }
+
+    .button-login{
+        width: 270px;
+    }
+
+    .illustration{
+        display: none;
+    }
+}
